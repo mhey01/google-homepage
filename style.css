@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Robot', sans-serif;
+}
+
+header {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+/* NAV BAR */
+#nav_bar {
+    float: right;
+}
+
+#nav_bar li {
+    display: inline-block;
+    padding: 8px;
+}
+
+#nav_bar #sign_in {
+    background: #4887ef;
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.nav-links {
+    color: rgba(0,0,0,0.87);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li.nav-links a:hover {
+    text-decoration: underline;
+}
+
+#sign_in:hover {
+    box-shadow: 1px 1px 5px #999;
+}
+
+#sign_in {
+    color: #fff;
+}
+
+/* LOGO */
+.google #google_logo {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 130px;
+    padding-bottom: 20px;
+}
+
+/* SEARCH FORM */
+.form {
+    text-align: center;
+    width: 582px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+
+}
+
+.form #search-form {
+    background-color: transparent;
+    border: none;
+    font-size: small;
+    color: #222;
+    padding: 0 8px;
+}
+
+.buttons {
+    text-align: center;
+    padding-top: 18px;
+    top: 53px;
+    z-index: 0;
+}
+
+.buttons input[type="submit"] {
+    background-image: -moz-linear-gradient(top,#f5f5f5,#f1f1f1);
+    -moz-border-radius: 2px;
+    -moz-user-select: none;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+footer {
+    background: #f2f2f2;
+    border-top: solid 2px #e4e4e4;
+    bottom: 0;
+    padding-bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer ul {
+    float: left;
+    padding: 1px;
+}
+
+.footer-right {
+    float: right;
+}
